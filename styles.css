@@ -1,0 +1,48 @@
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.mainDiv{
+  width : 100%;
+  height : 100vh;
+  position : relative;
+  background: #3498db;
+}
+.centerDiv{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+h1{
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: #ecf0f1;
+  text-shadow: 10px 20px 30px #2980b9;
+  font-size: 2.1rem;
+}
+h2{
+  text-align: center;
+}
+textarea{
+  background-color: #444;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 0 0;
+  border: 20px;
+  border-style: solid;
+  border-color: #34495e;
+  color: white;                /* //The CSS property color is used to set the color of the text within an element. When you set color: white;, it means the text content inside the element will be displayed in white color.*/
+  font-size: 1.3rem;
+}
+.mainbtn{
+  padding :10px 20px;  /*However, in your provided example padding: 10px 20px;, there are only two values specified. This shorthand syntax sets the top and bottom padding to 10px and the right and left padding to 20px.*/
+  border-radius: 20px;
+  border: 5px;
+  border-style: solid;
+  border-color: #2980b9;
+  background-color: #ecf0f1;
+  font-size: 1rem;
+}
